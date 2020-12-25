@@ -116,7 +116,8 @@ function draw() {
       
      obstaclesGroup.setVelocityXEach(0);
      FoodGroup.setVelocityXEach(0);
-    
+
+     text("Game Over!!!",250,130);
      text("Press R to restart",250,150);
      
      //When our monkey will touch one obstacles then the rest of the      bananas and obstacles will not disappear
@@ -142,7 +143,8 @@ function draw() {
       
   if(gameState===End){
     textSize(30);
-    text("Press R to restart",250,200);
+    text("Game Over!!!",270,200);
+    text("Press R to restart",250,250);
   }
 }
 
